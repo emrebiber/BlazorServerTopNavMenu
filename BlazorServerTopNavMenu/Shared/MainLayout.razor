@@ -1,0 +1,15 @@
+﻿@inherits LayoutComponentBase
+
+<header>
+    <NavMenu />
+</header>
+<body>
+    <div class="container">
+        @Body
+    </div>
+</body>
+<footer class="border-top footer text-muted bottom">
+    <div class="container mt-4 mb-4">
+        &copy; @DateTime.Now.Year - BlazorServerTopNavMenu
+    </div>
+</footer>
